@@ -1,0 +1,145 @@
+.st{
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+#logo{
+    width: 100%;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.8);
+    padding: 1%;
+}
+
+
+.product{
+    width: 100%;
+}
+
+.contain{
+    position: relative;
+    width: 100%;
+    
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4%;
+    box-shadow: 0 0 10px gray;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    background: rgb (0,0,0);
+    background: rgba(0,0,0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0 ;
+    color: white;
+    font-size: 180%;
+    text-align: center;
+    padding: 10%;
+    border-radius: 4%
+}
+
+.contain:hover .overlay{
+    opacity: 1;
+}
+
+.overlay2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    background-color: rgba(99,99,99, 0.5);
+    opacity: 0;
+    border-radius: 4%;
+
+}
+
+.text{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 180%;
+    
+}
+
+.contain:hover .overlay2{
+    opacity: 1;
+}
+
+.order{
+    background-color: darkgray;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    text-shadow: 0 0 20px #2b2b2b;
+}
+
+#phone{
+    padding-top: 10px;
+}
+
+
+.fa-mobile-alt{
+    padding: 0 5px;
+    font-size: 33px;
+   
+}
+
+#map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+}
+
+.footer {
+    text-align: center;
+    background-color: gray;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.fab {
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: white !important;
+}
+
+
+
+
+.fab:hover{
+    color: lightgray !important;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px black;
+}
+
+#copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
